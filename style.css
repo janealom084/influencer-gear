@@ -29,6 +29,22 @@ body{
     color: black;
 }
 /* -------------------header section css end ----------------------- */
+
+/* -------------------Costumer section css start ----------------------- */
+.customer-logos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.buyer-logo img{
+    width: 100%;
+}
+
+/* -------------------Costumer section css end ----------------------- */
+
 /*------------------- Top bannar css start ------------------------- */
 #Influencer{
     color: #E02C6D;
@@ -92,12 +108,14 @@ body{
 }
 .product-image img{
     width: 100%;
+    cursor: pointer;
 }
 .product-item h2{
     font-size: 28px;
     font-weight: 500;
     margin-top: 10px;
     color: #18191F;
+    cursor: pointer;
 }
 .product-item h3{
     font-family: Inter;
@@ -127,6 +145,7 @@ span{
   display: flex;
   justify-content: end;
   color: #E02C6D;
+  padding: 50px 0;
 }
 /*------------------- Products section css end ------------------------- */
 
@@ -153,10 +172,17 @@ span{
 .blog img{
     width: 100%;
     border: 3px solid #E02C6D;
+    opacity: .7;
+    cursor: pointer;
+}
+.blog img:hover{
+    opacity: 1;
+    transition: .3s linear;
 }
 .article-title h1{
     font-size: 30px;
     font-weight: 900;
+    cursor: pointer;
 }
 .article-title p{
     font-size: 16px;
