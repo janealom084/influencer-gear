@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ------------- Body CSS--------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------------common style ------------------ */
+.container{
+    padding: 0 5%;
+}
+/* -------------------header section css start ----------------------- */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logo h2{
+    font-weight: 600;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 15px;
+    font-weight: 600;
+    color: black;
+}
+/* -------------------header section css end ----------------------- */
+/*------------------- Top bannar css start ------------------------- */
+#Influencer{
+    color: #E02C6D;
+}
+.top-bannar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner-left{
+    margin-top: 150px;
+    flex: 1;
+}
+.banner-left h1{
+    font-weight: 600;
+    font-size: 52px;
+}
+.banner-left p{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 0;
+}
+.banner-right{
+    flex: 1; 
+}
+.banner-right img{
+    width: 100%; 
+}
+.button{
+    font-size: 16px;
+    height: 44px;
+    width: 196px;
+    border: none;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 41px;
+    border: 5px solid #E02C6D;
+}
+.button:hover{
+    background: transparent;
+    color: #E02C6D;
+    transition: .4S linear;
+}
+.fas{
+    margin-left: 5px;
+}
+/*------------------- Top bannar css end ------------------------- */
+/*------------------- Products section css start ------------------------- */
+.Collection-title h1{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #E02C6D;
+}
+.product-item{
+    height: 476px;
+    width: 329px;
+    padding: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;  
+}
+.product-image img{
+    width: 100%;
+}
+.product-item h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #18191F;
+}
+.product-item h3{
+    font-family: Inter;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.product-rating{
+    height: 32px;
+    width: 180px;
+    color: #EE4B28;  
+}
+span{
+    margin-left: 5px;
+}
+.product-item p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #787885;
+}
+
+.all-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.see-more{
+  display: flex;
+  justify-content: end;
+  color: #E02C6D;
+}
+/*------------------- Products section css end ------------------------- */
+
+/*------------------- Blogs section css start ------------------------- */
+.blog-title h1{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #E02C6D;
+}
+
+.blogs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.blog {
+    height: 280px;
+    width: 280px;
+}
+.blog img{
+    width: 100%;
+    border: 3px solid #E02C6D;
+}
+.article-title h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.article-title p{
+    font-size: 16px;
+    font-weight: 500;
+}
+/*------------------- Blogs section css end ------------------------- */
+/*------------------- fotter section css start --------------------- */
+.fotter{
+    width: 100%;
+    height: 230px;
+    background-color: #0A0826;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fotter h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fotter h6{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Manrope;
+    font-style: normal;
+    margin-top: 10px;
+}
+.fotter p{
+    text-align: center;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.social-icon{
+    margin-top: 10px;
+   padding: 5px;
+
+}
+.social-icon .fab {
+   padding: 5px;
+
+}
+/*------------------- fotter section css end --------------------- */
