@@ -166,7 +166,7 @@ span{
 }
 
 .blog {
-    height: 280px;
+    height: 400px;
     width: 280px;
 }
 .blog img{
@@ -232,3 +232,32 @@ span{
 
 }
 /*------------------- fotter section css end --------------------- */
+
+@media only screen and (max-width:688px){
+    .container{
+        max-width: 688px;
+    }
+    .navbar{
+        display: none;
+    }
+    .banner-left{
+        font-size: 10px;
+    }
+    
+    .banner-right{
+        display: none;
+    }
+
+    .all-products{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    .all-products{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+    }
+}
