@@ -233,6 +233,9 @@ span{
 }
 /*------------------- fotter section css end --------------------- */
 
+/* --------Responsive by midea quary--------- */
+
+/*------------------ Mobile version-------------------- */
 @media only screen and (max-width:688px){
     .container{
         max-width: 688px;
@@ -254,6 +257,9 @@ span{
     }
 
 }
+
+/* ---------------------Ipad version--------------------- */
+
 
 @media only screen and (min-width:688px) and (max-width:992px){
     .all-products{
